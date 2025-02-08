@@ -1,55 +1,60 @@
-=== Acwpblocks ===
-Contributors:      The WordPress Contributors
-Tags:              block
-Tested up to:      6.7
-Stable tag:        0.1.0
-License:           GPL-2.0-or-later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+=== ACWP Blocks - Popup Block ===
+Contributors: yourusername  
+Tags: gutenberg, block, popup, modal  
+Requires at least: 6.0  
+Tested up to: 6.4  
+Requires PHP: 7.4  
+License: GPLv2 or later  
+License URI: https://www.gnu.org/licenses/gpl-2.0.html  
 
-Example block scaffolded with Create Block tool.
+A custom Gutenberg block to create popups with dynamic triggers.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+ACWP Blocks - Popup Block is a Gutenberg block that allows you to create popups that can be triggered by any button or link with the same class as the popup ID.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+**Features:**
+- Add a popup block in the editor
+- Set a unique popup ID
+- Use any Gutenberg button or element with the same class to trigger the popup
+- Animations and smooth transitions
+- Custom close button and background click to close
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+1. Upload the plugin files to the `/wp-content/plugins/acwpblocks-popup` directory, or install the plugin through the WordPress plugins screen directly.
+2. Activate the plugin through the 'Plugins' screen in WordPress.
+3. Add the "Popup Block" from the block editor and configure it.
 
-e.g.
+== Usage ==
 
-1. Upload the plugin files to the `/wp-content/plugins/acwpblocks` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
-
-== Frequently Asked Questions ==
-
-= A question that someone might have =
-
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
+1. Insert the **Popup Block** into your post or page.
+2. Enter a unique **Popup ID** in the block settings.
+3. Use any button or link and give it the same **Popup ID** as a class.
+4. The popup will open when the trigger element is clicked.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Add the popup block in the editor.
+2. Set the popup ID and add content inside it.
+3. Use a button with the same popup ID to trigger it.
 
 == Changelog ==
 
-= 0.1.0 =
-* Release
+= 1.0.0 =
+* Initial release.
 
-== Arbitrary section ==
+== Frequently Asked Questions ==
 
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+= How do I trigger the popup? =
+Use any Gutenberg button or link and add the same popup ID as a class.
+
+= Can I use animations? =
+Yes, the popup has smooth animations from the bottom.
+
+= Can I customize the popup styles? =
+Yes, you can modify the CSS to change the appearance of the popup.
+
+== License ==
+
+This plugin is licensed under the GPLv2 or later.
