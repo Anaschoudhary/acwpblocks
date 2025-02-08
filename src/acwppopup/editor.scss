@@ -1,0 +1,12 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-acwpblocks-acwpblocks {
+	border: 1px dotted #f00;
+}
+.acwp-popup-block-content .block-editor-inner-blocks .block-list-appender{
+  position: relative !important;
+}
