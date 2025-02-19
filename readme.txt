@@ -31,9 +31,12 @@ ACWP Blocks - Popup Block is a Gutenberg block that allows you to create popups 
 == Usage ==
 
 1. Insert the **Popup Block** into your post or page.
-2. Enter a unique **Popup ID** in the block settings.
-3. Use any button or link and assign the same **Popup ID** as a class.
-4. The popup will open when the trigger element is clicked.
+2. Add any type of inner element inside the Popup Block.
+3. Enter a unique **Popup ID** in the block settings.
+4. Use any button or link and assign the same **Popup ID** as a class.
+4. You can use multiple popups on a single page or post.
+5. Check the front-end for the first popup containing an image.
+6. Also, check the front-end for the second popup, which contains a paragraph.
 
 == Source Code ==
 
