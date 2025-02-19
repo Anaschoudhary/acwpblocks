@@ -1,10 +1,10 @@
 === ACWP Blocks - Popup Block ===
 Stable tag: 0.1.0
-Contributors: Anas Choudhary  
+Contributors: anaschoudhary1  
 Tags: gutenberg, block, popup, modal  
-Version: 0.1.0
+Version: 0.1.0  
 Requires at least: 6.0  
-Tested up to: 6.4 < 6.7  
+Tested up to: 6.7  
 Requires PHP: 7.4  
 License: GPLv2 or later  
 License URI: https://www.gnu.org/licenses/gpl-2.0.html  
@@ -16,11 +16,11 @@ A custom Gutenberg block to create popups with dynamic triggers.
 ACWP Blocks - Popup Block is a Gutenberg block that allows you to create popups that can be triggered by any button or link with the same class as the popup ID.
 
 **Features:**
-- Add a popup block in the editor
-- Set a unique popup ID
-- Use any Gutenberg button or element with the same class to trigger the popup
-- Animations and smooth transitions
-- Custom close button and background click to close
+- Add a popup block in the editor.
+- Set a unique popup ID.
+- Use any Gutenberg button or element with the same class to trigger the popup.
+- Animations and smooth transitions.
+- Custom close button and background click to close.
 
 == Installation ==
 
@@ -35,6 +35,11 @@ ACWP Blocks - Popup Block is a Gutenberg block that allows you to create popups 
 3. Use any button or link and give it the same **Popup ID** as a class.
 4. The popup will open when the trigger element is clicked.
 
+== Source Code ==
+
+The source code for this plugin can be found at:  
+[GitHub Repository](https://github.com/Anaschoudhary/acwpblocks)  
+
 == Screenshots ==
 
 1. Add the popup block in the editor.
@@ -43,7 +48,7 @@ ACWP Blocks - Popup Block is a Gutenberg block that allows you to create popups 
 
 == Changelog ==
 
-= 1.0.0 =
+= 0.1.0 =
 * Initial release.
 
 == Frequently Asked Questions ==
