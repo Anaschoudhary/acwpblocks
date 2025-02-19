@@ -27,8 +27,8 @@ ACWP Blocks - Popup Block is a Gutenberg block that allows you to create popups 
 - Add a popup block in the editor.
 - Set a unique popup ID.
 - Use any Gutenberg button or element with the same class to trigger the popup.
-- Animations and smooth transitions.
-- Custom close button and background click to close.
+- Includes animations and smooth transitions.
+- Custom close button and background click-to-close functionality.
 
 == Installation ==
 
@@ -51,7 +51,7 @@ The source code for this plugin can be found at:
 == Source Code ==
 
 The source code for this plugin can be found at:  
-[GitHub Repository](https://github.com/Anaschoudhary/acwpblocks)  
+**Source Code:** [GitHub Repository](https://github.com/Anaschoudhary/acwpblocks)
 
 == Screenshots ==
 
