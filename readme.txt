@@ -1,4 +1,4 @@
-=== ACWP Blocks - Popup Block ===
+=== ACWP Blocks ===
 Stable tag: 0.1.0
 Contributors: anaschoudhary1  
 Tags: gutenberg, block, popup, modal  
@@ -13,7 +13,7 @@ A custom Gutenberg block to create popups with dynamic triggers.
 
 == Description ==
 
-ACWP Blocks - Popup Block is a Gutenberg block that allows you to create popups that can be triggered by any button or link with the same class as the popup ID.
+ACWP Blocks is a Gutenberg block that allows you to create popups that can be triggered by any button or link with the same class as the popup ID.
 
 **Features:**
 - Add a popup block in the editor.
