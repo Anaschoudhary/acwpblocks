@@ -1,1 +1,28 @@
-.wp-block-acwpblocks-acwpblocks{border:1px dotted red}.acwp-popup-block-content .block-editor-inner-blocks .block-list-appender{position:relative!important}
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/acwppopup/editor.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-acwpblocks-acwpblocks {
+  border: 1px dotted #f00;
+}
+
+.acwp-popup-block-content {
+  margin-top: 20px;
+}
+
+.acwp-popup-block-content .block-editor-inner-blocks .block-list-appender {
+  position: relative !important;
+}
+
+.acwp-popup-block-editor {
+  min-height: 100px;
+  border: 2px dashed #007cba;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=index.css.map*/

@@ -35,22 +35,21 @@ export default function Edit({ attributes, setAttributes }) {
 	const { popupId } = attributes;
 	const blockProps = useBlockProps({
         className: 'acwp-popup-block-editor',
-        style: { minHeight: '100px', border: '2px dashed #007cba', padding: '20px', marginBottom: '50px' },
     });
 			return (
 				 <div {...blockProps}>
 					<TextControl
-						label="Popup ID"
+						label={__('Popup ID', 'acwpblocks')}
 						value={popupId}
 						onChange={(value) => setAttributes({ popupId: value })}
-						placeholder="Enter a popup ID"
+						placeholder={__('Enter a popup ID', 'acwpblocks')}
 						style={{ maxWidth: '300px' }}
 					/>
 
-					<div className='acwp-popup-block-content' style={{ marginTop: '20px' }}>
+					<div className='acwp-popup-block-content'>
 						<InnerBlocks 
 							renderAppender={InnerBlocks.ButtonBlockAppender} 
-							placeholder="Add any block here" 
+							placeholder={__('Add any block here', 'acwpblocks')}
 						/>
 					</div>
 				</div>

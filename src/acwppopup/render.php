@@ -1,4 +1,8 @@
 <?php
+// Prevent direct access
+if (! defined('ABSPATH')) {
+	exit;
+}
 
 /**
  * Render callback for the Popup Block.

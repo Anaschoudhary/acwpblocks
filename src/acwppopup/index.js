@@ -4,8 +4,6 @@
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
 import { registerBlockType } from '@wordpress/blocks';
-import { InnerBlocks } from '@wordpress/block-editor';
-import { TextControl } from '@wordpress/components';
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -28,19 +26,8 @@ import metadata from './block.json';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-// const { registerBlockType } = wp.blocks;
-// const { InnerBlocks } = wp.blockEditor;
-
-registerBlockType('acwpblocks/popup', {
-    title: 'Popup Block',
-    description: 'A block that displays its contents in a popup triggered by a button.',
-    category: 'design',
-    attributes: {
-        popupId: {
-            type: 'string',
-            default: ''
-        }
-    },
-    edit:Edit,
-    save: Save
+registerBlockType(metadata.name, {
+    ...metadata,
+    edit: Edit,
+    save: Save,
 });
